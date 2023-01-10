@@ -1,0 +1,9 @@
+name = "K999"
+default_targets = ["win32", "win64", "macos"]
+build_directory = "makelove-build"
+
+love_files = [
+    "+*",
+    "-*/.*",
+    "-./makelove-build/*",
+]
